@@ -5,14 +5,12 @@ input [SIZE-1:0] WriteData;
 input clk, MemRead, MemWrite;
 output reg [SIZE-1:0] ReadData;
 reg [7:0] mem [SIZE-1:0];
-
 integer i;
 initial begin
 	for(i = 0; i < SIZE; i=i+1) begin
 		mem[i] = 8'b11;
 	end
 end
-
 always@(posedge clk) begin
 	if(MemRead)begin
 		ReadData[7:0]   = mem[Address];
@@ -27,5 +25,4 @@ always@(posedge clk) begin
 		mem[Address + 1'd3] = WriteData[31:24];
 	end
 end
-
 endmodule	
