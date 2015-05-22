@@ -35,6 +35,21 @@ endgenerate
 endmodule
 
 
+module mux5bits (a,b,s,x);
+parameter SIZE=5;
+input [4:0]a,b;
+input s;
+output [4:0]x;
+genvar i;
+generate
+	for(i=0; i < SIZE; i= i + 1)
+	begin:instanc
+		mux m(a[i], b[i], s, x[i]);
+	end
+endgenerate
+endmodule
+
+
 module mux3bits4entradas(and1, or1, adder1, slt, operation, x);
 input [31:0] and1, or1, adder1, slt; 
 input [2:0]operation;

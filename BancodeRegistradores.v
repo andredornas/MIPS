@@ -7,8 +7,17 @@ output reg[SIZE-1:0] Data1, Data2;
 reg [SIZE-1:0] registradores [SIZE-1:0];
 integer j;
 initial begin
-for (j=0; j<SIZE; j=j+1)
-	registradores[j] = 32'b0;
+	for (j=0; j<SIZE; j=j+1) begin
+		if(j == 17) begin
+			registradores[j] = 32'b00000000000000000000000000000100;
+		end else begin
+			if(j == 18) begin
+				registradores[j] = 32'b00000000000000000000000000000001;
+			end else begin
+				registradores[j] = 32'd0;
+			end
+		end
+	end
 end
 always@(Read1 or Read2)
 begin
