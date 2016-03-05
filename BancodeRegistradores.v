@@ -8,10 +8,10 @@ reg [SIZE-1:0] registradores [SIZE-1:0];
 integer j;
 initial begin
 	for (j=0; j<SIZE; j=j+1) begin
-		if(j == 17) begin
-			registradores[j] = 32'b00000000000000000000000000000100;
+		if(j == 8) begin
+			registradores[j] = 32'b00000000000000000000000000000001;
 		end else begin
-			if(j == 18) begin
+			if(j == 9) begin
 				registradores[j] = 32'b00000000000000000000000000000001;
 			end else begin
 				registradores[j] = 32'd0;
@@ -19,7 +19,7 @@ initial begin
 		end
 	end
 end
-always@(Read1 or Read2)
+always@(*)
 begin
 	Data1 <= registradores[Read1];
 	Data2 <= registradores[Read2];

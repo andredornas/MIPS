@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v
+source_file = 1, D:/CEFET/2015-1/LAOC/Minhas Práticas/Pratica9_Andre_Dornas_e_Rafael_Barbosa/db/MIPS.cbx.xml
+design_name = MIPS
+instance = comp, \clk~I , clk, MIPS, 1
+instance = comp, \reset~I , reset, MIPS, 1

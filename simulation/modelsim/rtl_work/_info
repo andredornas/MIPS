@@ -1,0 +1,413 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\projetos\Pratica9_Andre_Dornas_e_Rafael_Barbosa\simulation\modelsim
+vALU
+!i10b 1
+!s100 BIi9IGH?Qc2=>no`LeHA]2
+IM_XD3>0^AN5d2F>M]8LW93
+V@UKROefk<;T1AL9caAkD02
+Z1 dD:\altera\projetos\Pratica9_Andre_Dornas_e_Rafael_Barbosa\simulation\modelsim
+Z2 w1432312728
+Z3 8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v
+Z4 FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1433374173.542000
+Z7 !s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa -O0
+n@a@l@u
+vALUControl
+IeDQJ=:Mm<goZn80V;O[I22
+VC1GL2DWZdXoBOiWC9FXK12
+R1
+Z11 w1430003196
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@a@l@u@control
+!i10b 1
+!s100 Ajo;3V3C5C?83J678=QBj3
+!s85 0
+!s108 1433374173.427000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v|
+!s101 -O0
+vBancodeRegistradores
+IZ27@MT``@8Ul=B[[Q2N983
+V64I3Kf=>^S6l0z[jHTEK:2
+R1
+w1433373311
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@bancode@registradores
+!i10b 1
+!s100 djfzIXzTYPg?TS[ZlaRAd2
+!s85 0
+!s108 1433374173.315000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v|
+!s101 -O0
+vControl
+IKncC6ba`obBKQ99R:1lkL0
+Vc7B:kzWgYeOTjI1M[@mTF3
+R1
+w1432916971
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@control
+!i10b 1
+!s100 Z]4SF=35Dk7b_]c5;>m:_2
+!s85 0
+!s108 1433374173.191000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v|
+!s101 -O0
+vcountPC
+I6]j=UHb[cTgJKf5W633e41
+VT2loa0m5Ge4geNJ;LXMmH2
+R1
+Z12 w1433374146
+Z13 8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v
+Z14 FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v
+L0 78
+R5
+r1
+31
+Z15 !s108 1433374172.828000
+Z16 !s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v|
+R9
+R10
+ncount@p@c
+!i10b 1
+!s100 VH5>TA2_n=zjUPL`NBDRf2
+!s85 0
+!s101 -O0
+vd_overflow
+!i10b 1
+!s100 ji0:i8F1NLnb<=;DT_@DD3
+I3ST;1hR:a9Qzn5WR0QG^]1
+VQTf0kK?7GC;HWS0AE5^bA3
+R1
+R2
+R3
+R4
+L0 55
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vextensor16para32
+Im`[I`lkZda`2[<YUOZM[H0
+V]gU85DmWIRYeY[P]m1?eT3
+R1
+R11
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 d`5j3kUndF`M<ALX7@7`d0
+!s85 0
+!s108 1433374173.079000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v|
+!s101 -O0
+vfull_adder
+I:zk1^gA]dhCB1I<2D[odS1
+VmSS0VRRQlbF_4TcB<P?UA1
+R1
+Z18 w1431117264
+Z19 8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v
+Z20 FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v
+L0 20
+R5
+r1
+31
+Z21 !s108 1433374172.438000
+Z22 !s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v|
+R9
+R10
+!i10b 1
+!s100 ??aoZCDn=>=4z?`UIzR0K3
+!s85 0
+!s101 -O0
+vinstrucao
+Ib2OInV;6JnE47H[PeRT0a1
+VP7UnG8fPge9Az`_z3U8l[1
+R1
+R12
+R13
+R14
+L0 16
+R5
+r1
+31
+R15
+R16
+R17
+R9
+R10
+!i10b 1
+!s100 ^RaZmXE5]45VO<joWCej@3
+!s85 0
+!s101 -O0
+vMemoriaDeDados
+I6H1oKM:<cd=GFVoX`hh7e1
+VQ:NBGg4F9gdFTh:_bnR[d2
+R1
+w1432916799
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@memoria@de@dados
+!i10b 1
+!s100 UjETR;[afIIG>1Y9O:PYO1
+!s85 0
+!s108 1433374172.967000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v|
+!s101 -O0
+vMemoriaDeInstrucoes
+IYZF_N3KBkoodie0R28cea2
+Vhb9Q9IW0Aba:NF;kcIUSo0
+R1
+R12
+R13
+R14
+L0 1
+R5
+r1
+31
+R15
+R16
+R17
+R9
+R10
+n@memoria@de@instrucoes
+!i10b 1
+!s100 N3IT;_?m_aB:2Ja2U01eG1
+!s85 0
+!s101 -O0
+vMIPS
+I=mFWh[?17J3DA8EObPBi00
+V6Ijn_`6z7z3zMdlV[aIC`2
+R1
+w1433373764
+8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v
+FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@m@i@p@s
+!i10b 1
+!s100 4nN0LE2HjMnDXT8<3R^6f0
+!s85 0
+!s108 1433374172.715000
+!s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v|
+!s101 -O0
+vmux
+IXQ]]<Z`UlM?@O20]QPKEX2
+VThULMEHjzcX?4L7mV0RK`1
+R1
+Z24 w1430358270
+Z25 8D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v
+Z26 FD:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v
+L0 16
+R5
+r1
+31
+Z27 !s108 1433374172.568000
+Z28 !s107 D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v|
+Z29 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa|D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v|
+R9
+R10
+!i10b 1
+!s100 k[FU95d>38Ne7XLfQLCK40
+!s85 0
+!s101 -O0
+vmux32bits
+IKzLJ9eOgJWKRbEQ=O[SXD0
+VGj3egOl8VA`<BL;jN:@;d1
+R1
+R24
+R25
+R26
+L0 23
+R5
+r1
+31
+R27
+R28
+R29
+R9
+R10
+!i10b 1
+!s100 kPCSB<CGMO4k:KWQnodAL1
+!s85 0
+!s101 -O0
+vmux3bits4entradas
+InCHfG?J>;GHc_<eFC@1DT0
+Vb9MN3fM`JU<n5HHjMI3mb2
+R1
+R24
+R25
+R26
+L0 53
+R5
+r1
+31
+R27
+R28
+R29
+R9
+R10
+!i10b 1
+!s100 `U`Q9kN?od2I[gOJPF[W:2
+!s85 0
+!s101 -O0
+vmux4bits
+IDR71`l5LdMm]D;2_3ib]<3
+V:Fac;1lF1b2mlgOP>z;Fi3
+R1
+R24
+R25
+R26
+L0 1
+R5
+r1
+31
+R27
+R28
+R29
+R9
+R10
+!i10b 1
+!s100 A80BUS]1geWB87P`2Ge372
+!s85 0
+!s101 -O0
+vmux5bits
+I;C@dSX^4_kUbPg<4N<zP<0
+VIEXWmj2LV9Ofmiofb6nda0
+R1
+R24
+R25
+R26
+L0 38
+R5
+r1
+31
+R27
+R28
+R29
+R9
+R10
+!i10b 1
+!s100 Y<MUCjm0SX3KP@L0^c?cz1
+!s85 0
+!s101 -O0
+vslt
+!i10b 1
+!s100 FCd@53jEfnjzOoh[o0c]k2
+Ie]902[g`3F[eR_mH>f<S31
+VU`9oQONM3G=aPBnDj>6442
+R1
+R2
+R3
+R4
+L0 44
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vsomador32bits
+INU;2;[i_W9R2=i=>m0U1f2
+VSVDdVL]4OBGFmhKkKlX>O1
+R1
+R18
+R19
+R20
+L0 1
+R5
+r1
+31
+R21
+R22
+R23
+R9
+R10
+!i10b 1
+!s100 BMUIbZTI:di9<z4i^4cWl2
+!s85 0
+!s101 -O0
+vsomador5bits
+I6QJBTalB0kdchDbcF@O453
+VQ=1^m@YBW:2=`BUN@jNh11
+R1
+R18
+R19
+R20
+L0 28
+R5
+r1
+31
+R21
+R22
+R23
+R9
+R10
+!i10b 1
+!s100 _?jJoMS=EkYP8?R8S>n8C0
+!s85 0
+!s101 -O0

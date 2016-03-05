@@ -31,7 +31,7 @@ slt comparar(a, b, slt1);
 d_overflow dt(a, b, add1, overflow);
 
 mux3bits4entradas p(and1, or1, add1, slt1, operation, resultAux);
-always@(posedge clk) begin
+always@(*) begin
 	result = resultAux;
 	zero = ~result[0] & ~result[1] & ~result[2] & ~result[3] & ~result[4] & ~result[5] & ~result[6] & ~result[7] & ~result[8] & 
 				  ~result[9] & ~result[10] & ~result[11] & ~result[12] & ~result[13] & ~result[14] & ~result[15] & ~result[16] & 

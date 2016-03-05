@@ -1,0 +1,210 @@
+# Reading D:/altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPS_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador32bits
+# -- Compiling module full_adder
+# -- Compiling module somador5bits
+# 
+# Top level modules:
+# 	somador32bits
+# 	somador5bits
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4bits
+# -- Compiling module mux
+# -- Compiling module mux32bits
+# -- Compiling module mux5bits
+# -- Compiling module mux3bits4entradas
+# 
+# Top level modules:
+# 	mux4bits
+# 	mux5bits
+# 	mux3bits4entradas
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MIPS
+# 
+# Top level modules:
+# 	MIPS
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoriaDeInstrucoes
+# -- Compiling module instrucao
+# -- Compiling module countPC
+# 
+# Top level modules:
+# 	MemoriaDeInstrucoes
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemoriaDeDados
+# 
+# Top level modules:
+# 	MemoriaDeDados
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extensor16para32
+# 
+# Top level modules:
+# 	extensor16para32
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module BancodeRegistradores
+# 
+# Top level modules:
+# 	BancodeRegistradores
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUControl
+# 
+# Top level modules:
+# 	ALUControl
+# vlog -vlog01compat -work work +incdir+D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa {D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# -- Compiling module slt
+# -- Compiling module d_overflow
+# 
+# Top level modules:
+# 	ALU
+# 
+vsim work.MIPS
+# vsim work.MIPS 
+# Loading work.MIPS
+# Loading work.MemoriaDeInstrucoes
+# Loading work.countPC
+# Loading work.somador5bits
+# Loading work.instrucao
+# Loading work.Control
+# Loading work.ALUControl
+# Loading work.mux5bits
+# Loading work.BancodeRegistradores
+# Loading work.extensor16para32
+# Loading work.mux32bits
+# Loading work.ALU
+# Loading work.somador32bits
+# Loading work.slt
+# Loading work.d_overflow
+# Loading work.mux3bits4entradas
+# Loading work.MemoriaDeDados
+# Loading work.full_adder
+# Loading work.mux
+# ** Warning: (vsim-3015) D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(31): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'A'. The port definition is at: D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(55).
+# 
+#         Region: /MIPS/f/dt
+# ** Warning: (vsim-3015) D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(31): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'B'. The port definition is at: D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(55).
+# 
+#         Region: /MIPS/f/dt
+# ** Warning: (vsim-3015) D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(31): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'S'. The port definition is at: D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v(55).
+# 
+#         Region: /MIPS/f/dt
+wave create -driver freeze -pattern clock -initialvalue 0 -period 500ps -dutycycle 50 -starttime 0ps -endtime 5000ps sim:/MIPS/clk
+wave create -driver freeze -pattern clock -initialvalue 1 -period 4000ps -dutycycle 50 -starttime 0ps -endtime 5000ps sim:/MIPS/reset
+add wave -position end  sim:/MIPS/Instruction
+add wave -position end  sim:/MIPS/WriteData
+add wave -position end  sim:/MIPS/Data1
+add wave -position end  sim:/MIPS/Data2
+add wave -position end  sim:/MIPS/ResultALU
+add wave -position end  sim:/MIPS/ReadData
+add wave -position end  sim:/MIPS/SaidaExtensor
+add wave -position end  sim:/MIPS/mux3
+add wave -position end  sim:/MIPS/SaidaShift
+add wave -position end  sim:/MIPS/EnderecoJump
+add wave -position end  sim:/MIPS/SaidaShiftJump
+add wave -position end  sim:/MIPS/mux1
+add wave -position end  sim:/MIPS/ALUOperation
+add wave -position end  sim:/MIPS/ALUOp
+add wave -position end  sim:/MIPS/RegWrite
+add wave -position end  sim:/MIPS/ALUSrc
+add wave -position end  sim:/MIPS/zero
+add wave -position end  sim:/MIPS/MemRead
+add wave -position end  sim:/MIPS/MemWrite
+add wave -position end  sim:/MIPS/MemToReg
+add wave -position end  sim:/MIPS/RegDst
+add wave -position end  sim:/MIPS/Branch
+add wave -position end  sim:/MIPS/PCSrc
+add wave -position end  sim:/MIPS/Jump
+add wave -position end  sim:/MIPS/cout1
+add wave -position end  sim:/MIPS/SaidaPC
+add wave -position end  sim:/MIPS/EntradaPC
+add wave -position end  sim:/MIPS/SaidaAdder
+add wave -position end  sim:/MIPS/EntreMux
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern clock -initialvalue 0 -period 500ps -dutycycle 50 -starttime 0ps -endtime 5000ps sim:/MIPS/clk
+wave create -driver freeze -pattern clock -initialvalue 1 -period 4000ps -dutycycle 50 -starttime 0ps -endtime 5000ps sim:/MIPS/reset
+add wave -position end  sim:/MIPS/Instruction
+add wave -position end  sim:/MIPS/WriteData
+add wave -position end  sim:/MIPS/Data1
+add wave -position end  sim:/MIPS/Data2
+add wave -position end  sim:/MIPS/ResultALU
+add wave -position end  sim:/MIPS/ReadData
+add wave -position end  sim:/MIPS/SaidaExtensor
+add wave -position end  sim:/MIPS/mux3
+add wave -position end  sim:/MIPS/SaidaShift
+add wave -position end  sim:/MIPS/EnderecoJump
+add wave -position end  sim:/MIPS/SaidaShiftJump
+add wave -position end  sim:/MIPS/mux1
+add wave -position end  sim:/MIPS/ALUOperation
+add wave -position end  sim:/MIPS/ALUOp
+add wave -position end  sim:/MIPS/RegWrite
+add wave -position end  sim:/MIPS/ALUSrc
+add wave -position end  sim:/MIPS/zero
+add wave -position end  sim:/MIPS/MemRead
+add wave -position end  sim:/MIPS/MemWrite
+add wave -position end  sim:/MIPS/MemToReg
+add wave -position end  sim:/MIPS/RegDst
+add wave -position end  sim:/MIPS/Branch
+add wave -position end  sim:/MIPS/PCSrc
+add wave -position end  sim:/MIPS/Jump
+add wave -position end  sim:/MIPS/cout1
+add wave -position end  sim:/MIPS/SaidaPC
+add wave -position end  sim:/MIPS/EntradaPC
+add wave -position end  sim:/MIPS/SaidaAdder
+add wave -position end  sim:/MIPS/EntreMux
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/simulation/modelsim/wave.do
+wave editwrite -file D:/altera/projetos/Pratica9_Andre_Dornas_e_Rafael_Barbosa/simulation/modelsim/wave.do -append

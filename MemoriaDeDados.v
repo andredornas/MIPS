@@ -16,10 +16,10 @@ assign add[4] = Address[4];
 integer i;
 initial begin
 	for(i = 0; i < SIZE; i=i+1) begin
-		mem[i] = 8'd1;
+		mem[i] = 8'd0 + i;
 	end
 end
-always@(posedge clk) begin
+always@(*) begin
 	if(MemRead)begin
 		ReadData[7:0]   = mem[add];
 		ReadData[15:8]  = mem[add + 5'd1];

@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Somadores.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Multiplexadores.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MIPS.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeInstrucoes.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/MemoriaDeDados.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Extensor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/Control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/BancodeRegistradores.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALUControl.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa {C:/Users/Aluno/Desktop/Pratica9_Andre_Dornas_e_Rafael_Barbosa/ALU.v}
+
